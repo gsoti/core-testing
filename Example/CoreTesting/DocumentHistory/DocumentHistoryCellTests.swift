@@ -33,7 +33,7 @@ class DocumentHistoryCellSnapshotTests: XCTestCase {
     func testRejected() {
         let view = createDocumentHistoryCell(documentType: .rejected)
 
-        SnapshotTestConfig.View.single { config in
+        SnapshotTestConfig.View.large { config in
             assertImageSnapshot(matching: view, config: config)
         }
     }
@@ -41,7 +41,7 @@ class DocumentHistoryCellSnapshotTests: XCTestCase {
     func testClarify() {
         let view = createDocumentHistoryCell(documentType: .clarify)
 
-        SnapshotTestConfig.View.single { config in
+        SnapshotTestConfig.View.large { config in
             assertImageSnapshot(matching: view, config: config)
         }
     }
@@ -49,7 +49,7 @@ class DocumentHistoryCellSnapshotTests: XCTestCase {
     func testReceived() {
         let view = createDocumentHistoryCell(documentType: .received)
 
-        SnapshotTestConfig.View.single { config in
+        SnapshotTestConfig.View.large { config in
             assertImageSnapshot(matching: view, config: config)
         }
     }
@@ -57,7 +57,7 @@ class DocumentHistoryCellSnapshotTests: XCTestCase {
     func testValidated() {
         let view = createDocumentHistoryCell(documentType: .validated)
 
-        SnapshotTestConfig.View.single { config in
+        SnapshotTestConfig.View.large { config in
             assertImageSnapshot(matching: view, config: config)
         }
     }

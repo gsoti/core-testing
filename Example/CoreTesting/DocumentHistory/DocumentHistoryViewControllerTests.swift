@@ -21,5 +21,4 @@ class DocumentHistoryViewControllerTests: XCTestCase {
             assertImageSnapshot(matching: vc, config: config)
         }
     }
-
 }

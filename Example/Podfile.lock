@@ -1,5 +1,5 @@
 PODS:
-  - CoreTesting (0.1.0):
+  - CoreTesting (0.1.5):
     - LayoutTest/Swift (~> 6.0.1)
     - SnapshotTesting (~> 1.7.2)
   - LayoutTest/Swift (6.0.1):
@@ -48,7 +48,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CoreTesting: 7ec43d66b3eabb3ad121a885b778f28ace10773c
+  CoreTesting: 09bb2cfc4ff599c2420fc965333f402d2c6e16a4
   LayoutTest: f05ff965f6a090fd00f289d0f52fa12b502388fa
   LayoutTestBase: e087799bca531a58f5e8070cde036fb6185a76fa
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb

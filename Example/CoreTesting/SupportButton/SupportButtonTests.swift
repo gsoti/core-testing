@@ -11,9 +11,12 @@ import CoreTesting
 
 class SupportButtonTests: XCTestCase {
     func testSupportButton() {
-        let button = SupportButton()
-
         SnapshotTestConfig.View.free { config in
+            // declaring the view outside the closure does not currently work
+            // this does not allow us to have a sigle instance of the view
+            // and test how it adjusts to changes of font/theme in the runtime
+            // we do however test how the view is instantiated in both configurations 
+            let button = SupportButton()
             assertImageSnapshot(matching: button, config: config)
         }
     }
